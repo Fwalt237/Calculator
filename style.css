@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+#container{
+    display: grid;
+    width: 26.5em;
+    height: 47.6em;
+    border-radius: 2.75em;
+    background-color: black;
+    border: rgb(5, 5, 5) solid thick;
+    border-width: thick;
+  
+}
+
+#output{
+    margin-inline: 25px;
+    margin-top: 40px;
+    background-color: black;
+    border-width: thick;
+    height: 15em;
+    display: grid;
+}
+
+.result{
+    text-align: right ;
+    align-content: flex-end;
+    font-size: 70px;
+    color: white;
+}
+
+#alphaNum{
+    display: grid;
+    margin-bottom: 20px;
+    margin-top: -13em;
+}
+
+.line{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-inline: 10px;
+}
+
+.button{
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 2em;
+    height: 1.9em;
+    padding: 0;
+    border: 1px ;
+    box-sizing: border-box;
+    scale: 3;
+    transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.button.clicked{
+    transform: scale(0.95);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.num{
+    background-color: rgb(19, 18, 18);
+    color: white ;
+}
+.sign{
+    background-color:rgb(226, 148, 3);
+    color: white;
+}
+.equal{
+    background-color: rgb(19, 18, 18);
+    color: white ;
+}
+.plusMinus{
+    background-color:rgb(226, 148, 3);
+    color: white;
+}
+.act{
+    background-color: rgb(128, 127, 127);
+}
+
